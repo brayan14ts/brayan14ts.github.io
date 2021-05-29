@@ -155,7 +155,7 @@ nav {
 
 #about-me {
   display: block;
-  height: 400px;
+  height: auto;
   width: 100%;
 }
 
@@ -168,7 +168,7 @@ nav {
 
 .message-about-me {
   width: 70%;
-  margin: 30px;
+  margin: 15px;
   padding: 15px;
 }
 
@@ -192,8 +192,9 @@ nav {
 
 #experience {
   display: block;
-  height: 600px;
+  height: auto;
   width: 100%;
+  margin: 20px 0;
 }
 
 #background-exp {
@@ -205,7 +206,7 @@ nav {
 }
 
 #title {
-  padding-top: 50px;
+  padding-top: 20px;
   padding-bottom: 15px;
 }
 
@@ -238,7 +239,7 @@ nav {
 }
 
 #info-exp:hover {
-  transition: 0.4s;
+  transition: 0.8s;
   background-color: #fff;
   box-shadow: 5px 5px 10px rgb(0, 0, 0);
 }
@@ -278,7 +279,6 @@ nav {
 
 #blog {
   background-color: rgb(235, 235, 235);
-  margin-top: 0px;
   display: block;
   height: auto;
   width: 100%;
@@ -344,7 +344,7 @@ nav {
 }
 
 .modal {
-  background-color: rgba(0,0,0,.8);
+  background-color: rgba(0, 0, 0, 0.9);
   position:fixed;
   top:0;
   right:0;
@@ -353,7 +353,7 @@ nav {
   opacity:0;
   pointer-events:none;
   transition: all 1s;
-  z-index: 1000;
+  z-index: 100;
 }
 
 #miModal:target {

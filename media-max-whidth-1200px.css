@@ -1,0 +1,88 @@
+@media  screen and (max-width:1200px){
+    * ::selection {
+        background: #ff00dd;
+        color: #fff;
+        text-shadow: none;
+        opacity: 1;
+    }
+
+    #blog {
+        background-color: rgb(235, 235, 235);
+        display: block;
+        height: auto;
+        width: 100%;
+      }
+      
+      #info-blog {
+        width: 260px;
+        height: 400px;
+        margin: 15px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 2px 2px 5px rgb(36, 36, 36);
+        position: relative;
+        transition: transform 0.5s;
+      }
+      
+      #info-blog:hover {
+        transform: scale(1.1);
+        z-index: 100;
+      }
+      
+      .img-blog img {
+        margin: 0 auto; /*centrado horizontal*/
+        width: 260px;
+        height: 190px;
+      }
+      
+      .info-blog-title {
+        width: 240px;
+        height: auto;
+        margin: 15px 10px;
+        background-color: none;
+      }
+      
+      .info-blog-title h2 {
+        font-family: "Raleway", sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        text-align: center;
+      }
+      
+      .info-blog-info {
+        width: 240px;
+        height: 100px;
+        margin: 10px;
+        background-color: none;
+        bottom: 0px;
+        right: 0px;
+        position: absolute;
+      }
+      
+      .info-blog-info p {
+        font-family: "Raleway", sans-serif;
+        font-size: 15px;
+        text-align: center;
+      }
+      
+      .modal-contenido{
+        background-color:aqua;
+        width:300px;
+        padding: 10px 20px;
+        margin: 20% auto;
+        position: relative;
+      }
+      
+      .modal {
+        background-color: rgba(0, 0, 0, 0.9);
+        position:fixed;
+        top:0;
+        right:0;
+        bottom:0;
+        left:0;
+        opacity:0;
+        pointer-events:none;
+        transition: all 1s;
+        z-index: 100;
+      }
+    
+}
