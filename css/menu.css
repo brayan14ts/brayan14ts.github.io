@@ -3,7 +3,7 @@ body * {
   transition: all 300ms ease-out;
 }
 body.light {
-  background-color: #EEE;
+  background-color: rgb(235, 235, 235);
 }
 body.dark {
   background-color: #222;
