@@ -1,0 +1,41 @@
+body,
+body * {
+  transition: all 300ms ease-out;
+}
+body.light {
+  background-color: #EEE;
+}
+body.dark {
+  background-color: #222;
+}
+body ul.menu {
+  position: absolute;
+  height: 250px;
+  top: 50%;
+  margin-top: -125px;
+  width: auto;
+  margin-left: 50px;
+}
+body ul.menu li, body ul.menu li a, a{
+  color: #000;
+  list-style-type: none;
+  line-height: 50px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 80px;
+  margin: 45px 0;
+  font-weight: bold;
+  text-transform: lowercase;
+  text-decoration:none;
+}
+body ul.menu li:hover, body ul.menu li a:hover {
+  color: #EEE;
+  cursor: pointer;
+}
+
+#close {
+    width: auto;
+    margin-top:-70px;
+    margin-right: 20px;
+    height: auto;
+    float: right;
+  }

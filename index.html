@@ -7,14 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brayan Torrealba | Tester de Software</title>
     <link rel="icon" href="images/favicon.jpg">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="media-max-whidth-1200px.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Letras -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet" print>
+
 </head>
 
 
@@ -23,35 +27,35 @@
         <header>
             <nav class="navegation" id="nav">
                 <div class="index">
-                    <a href="index.html"><img id="imgindex" src="images/imgindex.png" alt=""></a>
+                    <a href="index.html"><img id="imgindex" src="images/favicon.jpg" alt=""></a>
                 </div>
 
                 <div class="menu">
                     <ul class="elementsmenu">
-                        <li><a href=#>ACERCA DE</a></li>
+                        <li><a href=#about-me>ACERCA DE</a></li>
                         <li><a>BLOG</a>
                             <ul class="elementssubmenu">
-                                <li><a href=#otros1>APRENDIZAJE DE CALIDAD</a></li>
+                                <li><a href=#blog>APRENDIZAJE DE CALIDAD</a></li>
                             </ul>
                         <li>
                         <li><a href="https://www.linkedin.com/in/brayan14ts/" target="_blank">LINKEDIN</a></li>
-                        <li><a href=#contacto>CONTACTO</a></li>
-                        <li><a>OTROS</a>
-                            <ul class="elementssubmenu">
-                                <li><a href=#otros1>PROYECTOS</a></li>
-                                <li><a href=#otros>PROYECTOS</a></li>
-                            </ul>
-                        </li>
+                        <li><a href=#contact-me>CONTACTO</a></li>
                     </ul>
                 </div>
 
+                <!-- menu responsive max:900px -->
+                <div class="menu-max-900px">
+                    <a href="menu.html"><img id="img-menu" src="images/menu.png" alt=""></a>
+                </div>
             </nav>
         </header>
 
         <div id="background-header">
-            <div id="brayantorrealba"><br><br><br><br><br><br>
-                <h2>BRAYAN TORREALBA</h2>
-                <h3>Tester de Software</h3>
+            <div id="brayantorrealba">
+                <div id="bt-contenido">
+                    <h2>BRAYAN TORREALBA</h2>
+                    <h3>Tester de Software</h3>
+                </div>
             </div>
             <div id="img-header">
                 <img src="images/header.png" alt="">
@@ -65,16 +69,16 @@
             <div class="info-about-me">
                 <div class="message-about-me">
                     <h2>
-                        "No importa que te equivoques, lo importante es que puedas aprender de tus errores"
+                        &#10077;No importa que te equivoques, lo importante es que puedas aprender de tus
+                        errores&#10078;
                     </h2>
                 </div>
                 <div class="info-about-me-info">
                     <p>
-                        ✔ Tester de Software trainee.<br>
-                        ✔ Apasionado por la docencia.<br>
-                        ✔ Blog con contenido educativo sobre Calidad de SW.<br>
-                        ✔ Ingeniero en Equipos Ferroviarios.<br>
-                        ✅ Lorem, ipsum dolor.
+                        &#9989; Tester de Software.<br>
+                        &#9989; Apasionado por la docencia.<br>
+                        &#9989; Blog sobre Calidad de SW.<br>
+                        &#9989; Ingeniero en Equipos Ferroviarios.<br>
                     </p>
                 </div>
             </div>
@@ -88,6 +92,19 @@
             </div>
             <div id="list">
                 <div id="info-exp">
+                    <div class="img-exp"><img class="img-exp" src="images/educacionit.jpg" alt=""></div>
+                    <div class="info-exp-company">
+                        <h3>Educacion IT</h3>
+                        <h2>PROFESOR</h2>
+                        <h5>mar 2021 - act</h5>
+                    </div>
+                    <div class="info-exp-info">
+                        <h4>Participacion como adjunto al Profesor de curso, realizando acciones
+                            de apoyo académico en los cursos de "Software Testing /QA.</h4>
+                    </div>
+                </div>
+
+                <div id="info-exp">
                     <div class="img-exp"><img class="img-exp" src="images/etestops.jpg" alt=""></div>
                     <div class="info-exp-company">
                         <h3>eTestOps</h3>
@@ -97,19 +114,6 @@
                     <div class="info-exp-info">
                         <h4>Diseño y Ejecución de casos de prueba manuales y automatizados e
                             identificación, reporte, seguimiento y verificación de bugs. </h4>
-                    </div>
-                </div>
-
-                <div id="info-exp">
-                    <div class="img-exp"><img class="img-exp" src="images/educacionit.jpg" alt=""></div>
-                    <div class="info-exp-company">
-                        <h3>Educacion IT</h3>
-                        <h2>AYUDANTE DE CURSO</h2>
-                        <h5>mar 2021 - act</h5>
-                    </div>
-                    <div class="info-exp-info">
-                        <h4>Participacion como adjunto al Profesor de curso, realizando acciones
-                            de apoyo académico en los cursos de "Software Testing /QA.</h4>
                     </div>
                 </div>
 
@@ -136,26 +140,16 @@
             </div>
 
             <div id="list">
-                <a href="#miModal">
-                    <div id="info-blog">
-                        <div class="img-blog"><img src="images/blog1.png" alt=""></div>
-                        <div class="info-blog-title">
-                            <h2>¿Que es Calidad?</h2>
-                        </div>
-                        <div class="info-blog-info">
-                            <p>Para muchos calidad es que algo no falle, peroooo ¿realmente significa eso?</p>
-                        </div>
-                    </div>
-                </a>
-
-
-                <div id="miModal" class="modal">
-                    <div class="modal-contenido">
-                        <a href="#">X</a>
+                <div id="info-blog">
+                    <div class="img-blog"><img src="images/blog1.png" alt=""></div>
+                    <div class="info-blog-title">
                         <h2>¿Que es Calidad?</h2>
+                    </div>
+                    <div class="info-blog-info">
                         <p>Para muchos calidad es que algo no falle, peroooo ¿realmente significa eso?</p>
                     </div>
                 </div>
+
 
                 <div id="info-blog">
                     <div class="img-blog"><img src="images/blog2.jpg" alt=""></div>
@@ -187,6 +181,7 @@
                     </div>
                 </div>
             </div>
+
             <div id="list">
                 <div id="info-blog">
                     <div class="img-blog"><img src="images/blog5.jpg" alt=""></div>
@@ -216,6 +211,110 @@
                     </div>
                     <div class="info-blog-info">
                         <p>Como testers las mas empleadas son las pruebas funcionales y las asociadas al cambio, pero
+                            existen mas</p>
+                    </div>
+                </div>
+
+                <div id="info-blog">
+                    <div class="img-blog"><img src="images/blog8.jfif" alt=""></div>
+                    <div class="info-blog-title">
+                        <h2>Tecnicas de Caja negra</h2>
+                    </div>
+                    <div class="info-blog-info">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, earum? Itaque
+                            temporibus.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- blog responsive max:1200px -->
+        <div id="blog-max-1200px">
+            <div id="title">
+                <h2>APRENDIZAJE DE CALIDAD</h2>
+                <h3>Si te apasiona la Calidad de Software tanto como a mi, te invito a ver mis publicaciones</h3>
+            </div>
+
+            <div id="list">
+                <div id="info-blog">
+                    <div class="img-blog"><img src="images/blog1.png" alt=""></div>
+                    <div class="info-blog-title">
+                        <h2>¿Que es Calidad?</h2>
+                    </div>
+                    <div class="info-blog-info">
+                        <p>Para muchos calidad es que algo no falle, peroooo ¿realmente significa eso?</p>
+                    </div>
+                </div>
+
+
+                <div id="info-blog">
+                    <div class="img-blog"><img src="images/blog2.jpg" alt=""></div>
+                    <div class="info-blog-title">
+                        <h2>Tester, QA, Manual, Automation...</h2>
+                    </div>
+                    <div class="info-blog-info">
+                        <p>Hoy hablaremos un poco sobre el rol del de cada uno, que actividades realizan y mas.</p>
+                    </div>
+                </div>
+
+                <div id="info-blog">
+                    <div class="img-blog"><img src="images/blog3.png" alt=""></div>
+                    <div class="info-blog-title">
+                        <h2>Validacion / Verificacion</h2>
+                    </div>
+                    <div class="info-blog-info">
+                        <p>Segun ISTQB, no son lo mismo</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="list">
+                <div id="info-blog">
+                    <div class="img-blog"><img src="images/blog4.jpg" alt=""></div>
+                    <div class="info-blog-title">
+                        <h2>Falla, error y defecto ¿Iguales o diferentes?</h2>
+                    </div>
+                    <div class="info-blog-info">
+                        <p>En el desarrollo de software utilizamos estos terminos indistintamente y no significan lo
+                            mismo. Descubre la diferencia.</p>
+                    </div>
+                </div>
+
+                <div id="info-blog">
+                    <div class="img-blog"><img src="images/blog5.jpg" alt=""></div>
+                    <div class="info-blog-title">
+                        <h2>Los 7 principios del testing</h2>
+                    </div>
+                    <div class="info-blog-info">
+                        <p>Aqui la lista de los 7 principios de Testing de acuerdo al libro de ISTQB.</p>
+                    </div>
+                </div>
+
+                <div id="info-blog">
+                    <div class="img-blog"><img src="images/blog6.png" alt=""></div>
+                    <div class="info-blog-title">
+                        <h2>Buenas practicas</h2>
+                    </div>
+                    <div class="info-blog-info">
+                        <p>¿Alguna vez escuchaste hablar de ellas? Aplican para el dev, tester, seguridad, PO y en
+                            tu
+                            vida personal.</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div id="list">
+                <div id="info-blog">
+                    <div class="img-blog"><img src="images/blog7.jpg" alt=""></div>
+                    <div class="info-blog-title">
+                        <h2>Tipos de Pruebas de software</h2>
+                    </div>
+                    <div class="info-blog-info">
+                        <p>Como testers las mas empleadas son las pruebas funcionales y las asociadas al cambio,
+                            pero
                             existen mas</p>
                     </div>
                 </div>
@@ -271,7 +370,6 @@
                     src="images/whatsapp.ico" alt="hipervinculo a mi Whatsapp"></a>
         </div>
     </div>
-
 </body>
 
 </html>
