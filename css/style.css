@@ -160,6 +160,7 @@ nav {
   height: 400px;
 }
 
+
 #about-me {
   display: block;
   height: auto;
@@ -284,7 +285,7 @@ nav {
 }
 
 #blog {
-  background-color: #D18B49;
+  background-color: #c2bdbd;
   display: block;
   height: auto;
   width: 100%;
@@ -641,6 +642,7 @@ footer {
 }
 
 @media only screen and (max-width: 500px) {
+  
   #brayantorrealba h2 {
     font-family: "Oswald", sans-serif;
     font-size: 40px;

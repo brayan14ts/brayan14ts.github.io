@@ -20,9 +20,6 @@ $(document).ready(function() {
       background: getProductColor
     });
 
-    $('.title').css({
-      color: getProductColor
-    });
 
     $('.btn').css({
       color: getProductColor
