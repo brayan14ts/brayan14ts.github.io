@@ -64,10 +64,11 @@ body {
 }
 
 .photo {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   margin: 10px;
   border-radius: 100%;
+  border: 1px solid #000000;
 }
 
 .date h2 {
