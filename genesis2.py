@@ -17,3 +17,7 @@ def load_yolo():
     
     colors = np.random.uniform(0, 255, size=(len(classes), 3))
     return net, classes, colors, output
+
+
+
+    gkljghtiojghiodgjhtiodjhd
