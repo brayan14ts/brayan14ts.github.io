@@ -116,7 +116,7 @@ nav {
 
 #background-header {
   width: 100%;
-  height: 400px;
+  height: 650px;
   background-color: black;
   margin-top: 80px;
   /*centado horizontal y vertical de todo lo que contiene */
@@ -151,13 +151,13 @@ nav {
 }
 
 #img-header {
-  width: 35%;
+  width: 45%;
   float: right;
 }
 
 #img-header img {
   width: auto;
-  height: 400px;
+  height: 650px;
 }
 
 
@@ -175,16 +175,18 @@ nav {
 }
 
 .message-about-me {
-  width: 70%;
-  margin: 15px;
-  padding: 15px;
+  width: 50%;
+  margin: 25px;
+  padding: 25px;
+  margin-left: 15%;
+  margin-right: 15%;
+
 }
 
 .message-about-me h2 {
   font-family: "Raleway", sans-serif;
-  font-size: 45px;
+  font-size: 15px;
   text-align: center;
-  font-style: italic;
 }
 .info-about-me-info {
   width: 30%;
@@ -282,6 +284,24 @@ nav {
 .info-exp-info h4 {
   text-align: center;
   font-size: 12px;
+}
+
+#skills {
+  background-color: #ffffff;
+  display: block;
+  height: auto;
+  width: 100%-100px;
+  display: block;
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+
+.images-skills >img {
+  height: 80px;
+  display: inline-block;
+  padding: 25px;
+
 }
 
 #blog {
@@ -514,6 +534,23 @@ footer {
     font-size: 12px;
     text-align: center;
   }
+
+  #skills {
+    background-color: #ffffff;
+    display: block;
+    height: auto;
+    width: 90%;
+    display: block;
+    margin-bottom: 30px;
+  
+  }
+
+  .images-skills >img {
+    height: 60px;
+    display: inline-block;
+    padding: 10px;
+  
+  }
 }
 
 
@@ -565,7 +602,7 @@ footer {
   
   .message-about-me h2 {
     font-family: "Raleway", sans-serif;
-    font-size: 35px;
+    font-size: 15px;
     text-align: center;
     font-style: italic;
   }
